@@ -6,8 +6,8 @@ mysqli_ssl_set($conn,NULL,NULL, "/var/www/html/DigiCertGlobalRootG2.crt.pem", NU
 // Secure connection to Azure MySQL
 $server = "music.mysql.database.azure.com";
 $username = "music";
-$password = getenv('MYSQL_PASSWORD'); // Store sensitive data securely in environment variables
-$database = getenv('MYSQL_DATABASE'); // Retrieve database name from environment variable
+$password = "Password@123"; // Store sensitive data securely in environment variables
+$database = "music-db"; // Retrieve database name from environment variable
 $port = 3306;
 
 // Initialize connection
