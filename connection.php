@@ -1,7 +1,7 @@
 <?php
 // SSL connection setup
 $con = mysqli_init();
-mysqli_ssl_set($conn,NULL,NULL, "/var/www/html/DigiCertGlobalRootG2.crt.pem", NULL, NULL);
+mysqli_ssl_set($con, NULL, NULL, NULL, NULL);
 
 // Secure connection to Azure MySQL
 $server = "music.mysql.database.azure.com";
