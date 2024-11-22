@@ -7,7 +7,7 @@ mysqli_ssl_set($con, NULL, NULL, NULL, NULL);
 $server = "music.mysql.database.azure.com";
 $username = "music";
 $password = "Password@123"; // Store sensitive data securely in environment variables
-$database = "music-db"; // Retrieve database name from environment variable
+$database = "musical_world"; // Retrieve database name from environment variable
 $port = 3306;
 
 // Initialize connection
